@@ -1,0 +1,13 @@
+urls:
+  - name: https://kevincobain2000.github.io
+    timeout: 2000 #in ms
+    enabled: true
+    crawl: true
+  - name: https://kevincobain2001.github.io
+    timeout: 2000 #in ms
+    enabled: true
+    crawl: true
+  - name: https://github.com
+    timeout: 2000
+    enabled: true
+    crawl: false
