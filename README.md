@@ -23,6 +23,10 @@
 
 ```sh
 go run main.go sample.yml
+
+#or
+go install github.com/kevincobain2000/aketemite@latest
+aketemite sample.yml
 ```
 
 ## Screenshots
