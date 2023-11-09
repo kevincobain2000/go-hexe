@@ -3,7 +3,7 @@ urls:
     timeout: 2000 #in ms
     enabled: true
     crawl: true
-  - name: https://kevincobain2001.github.io
+  - name: https://coveritup.app
     timeout: 2000 #in ms
     enabled: true
     crawl: true
