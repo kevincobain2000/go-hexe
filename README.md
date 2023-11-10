@@ -28,6 +28,16 @@
 
 # Build Status
 
+| Branch          | Status                                                                                                                                                    |
+| :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| master          | ![CI](https://github.com/kevincobain2000/go-hexe/actions/workflows/build.yml/badge.svg)                                                                   |
+| Coverage        | [![coveritup](https://coveritup.app/embed/kevincobain2000/go-hexe?branch=master&type=coverage)](https://coveritup.app/kevincobain2000/go-hexe)            |
+| Binary Size     | [![coveritup](https://coveritup.app/embed/kevincobain2000/go-hexe?branch=master&type=go-binary-size)](https://coveritup.app/kevincobain2000/go-hexe)      |
+| Mod Dependecies | [![coveritup](https://coveritup.app/embed/kevincobain2000/go-hexe?branch=master&type=go-mod-dependencies)](https://coveritup.app/kevincobain2000/go-hexe) |
+| Unit Test Time  | [![coveritup](https://coveritup.app/embed/kevincobain2000/go-hexe?branch=master&type=unit-test-run-time)](https://coveritup.app/kevincobain2000/go-hexe)  |
+| Average PR Days | [![coveritup](https://coveritup.app/embed/kevincobain2000/go-hexe?branch=master&type=average-pr-days)](https://coveritup.app/kevincobain2000/go-hexe)     |
+
+
 
 ## Requirements
 
