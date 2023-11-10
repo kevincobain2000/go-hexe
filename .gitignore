@@ -21,3 +21,6 @@ bin/
 build/
 
 ignore.yml
+out
+
+.vscode
