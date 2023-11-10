@@ -32,6 +32,8 @@ jobs:
           go install github.com/AlekSi/gocov-xml@latest
       - name: Test
         run: |
+          mkdir -p dist/
+          echo "hello" > dist/index.html
           BUILD_START=$SECONDS
           go test -race -v ./... -count=1 -coverprofile=coverage.out
           echo SCORE=$(($SECONDS-BUILD_START)) >> "$GITHUB_ENV"
