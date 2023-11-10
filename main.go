@@ -19,7 +19,6 @@ const (
 var publicDir embed.FS
 
 func main() {
-
 	e := pkg.NewEcho()
 
 	e.GET("*", func(c echo.Context) error {
