@@ -48,7 +48,8 @@ go build main.go
 
 ## Development
 
-```
+```sh
+go run main.go
+# or
 air
 ```
-
