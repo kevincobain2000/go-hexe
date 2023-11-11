@@ -26,6 +26,8 @@
 
 **Supports:** HTML, CSS, JS, Images, Fonts, SVGs, JSON, XML, Markdown and etc.
 
+**Supports:** Base Path, Custom Port.
+
 # Build Status
 
 | Branch          | Status                                                                                                                                                    |
