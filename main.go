@@ -32,6 +32,7 @@ func main() {
 		filename := fmt.Sprintf("%s/%s", PUBLIC_DIR, embedPath)
 
 		filename = pkg.SlashIndexFile(filename)
+		filename = pkg.ReplaceDoubleSlash(filename)
 
 		content, err := publicDir.ReadFile(filename)
 		if err != nil {

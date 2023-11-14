@@ -1,6 +1,9 @@
 package pkg
 
-import "path/filepath"
+import (
+	"path/filepath"
+	"strings"
+)
 
 func GetContentType(filename string) string {
 	ext := filepath.Ext(filename)
@@ -43,8 +46,15 @@ func GetContentType(filename string) string {
 }
 
 func SlashIndexFile(filename string) string {
-	if filename[len(filename)-1:] == "/" {
+	if filename == "" {
+		filename = "index.html"
+	} else if filename[len(filename)-1:] == "/" {
 		filename += "index.html"
 	}
+	return filename
+}
+
+func ReplaceDoubleSlash(filename string) string {
+	filename = strings.ReplaceAll(filename, "//", "/")
 	return filename
 }
