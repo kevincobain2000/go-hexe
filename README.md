@@ -30,7 +30,6 @@
 
 # Build Status
 
-![CI](https://github.com/kevincobain2000/go-hexe/actions/workflows/build.yml/badge.svg)
 ![unit-test-run-time](https://coveritup.app/badge?org=kevincobain2000&repo=go-hexe&type=unit-test-run-time&branch=master)
 ![build-time](https://coveritup.app/badge?org=kevincobain2000&repo=go-hexe&type=build-time&branch=master)
 ![coverage](https://coveritup.app/badge?org=kevincobain2000&repo=go-hexe&type=coverage&branch=master)
