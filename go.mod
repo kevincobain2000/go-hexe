@@ -1,6 +1,6 @@
 module github.com/kevincobain2000/go-hexe
 
-go 1.21.3
+go 1.22
 
 require (
 	github.com/fvbock/endless v0.0.0-20170109170031-447134032cb6
