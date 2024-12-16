@@ -6,7 +6,7 @@ import (
 )
 
 func GetAllFilenames(efs *embed.FS) (files []string, err error) {
-	if err := fs.WalkDir(efs, ".", func(path string, d fs.DirEntry, err error) error {
+	if err := fs.WalkDir(efs, ".", func(path string, d fs.DirEntry, _ error) error {
 		if d.IsDir() {
 			return nil
 		}

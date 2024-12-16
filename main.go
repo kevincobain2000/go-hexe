@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	PUBLIC_DIR = "dist"
+	PublicDir = "dist"
 )
 
 var (
@@ -29,18 +29,17 @@ func main() {
 	e.GET(basePath+"*", func(c echo.Context) error {
 		embedPath := c.Request().URL.Path
 		embedPath = embedPath[len(basePath):]
-		filename := fmt.Sprintf("%s/%s", PUBLIC_DIR, embedPath)
+		filename := fmt.Sprintf("%s/%s", PublicDir, embedPath)
 
 		filename = pkg.SlashIndexFile(filename)
 		filename = pkg.ReplaceDoubleSlash(filename)
 
 		content, err := publicDir.ReadFile(filename)
 		if err != nil {
-			return c.String(http.StatusNotFound, pkg.ERROR_MSG_404_PAGE_NOT_FOUND)
+			return c.String(http.StatusNotFound, pkg.ErrorMsg404)
 		}
 
 		return c.Blob(http.StatusOK, pkg.GetContentType(filename), content)
-
 	})
 
 	pkg.GracefulServerWithPid(e, port)

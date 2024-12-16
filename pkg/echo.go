@@ -21,7 +21,7 @@ func SetupLogger(e *echo.Echo) {
 	e.Use(middleware.RequestLoggerWithConfig(middleware.RequestLoggerConfig{
 		LogURI:    true,
 		LogStatus: true,
-		LogValuesFunc: func(c echo.Context, values middleware.RequestLoggerValues) error {
+		LogValuesFunc: func(_ echo.Context, values middleware.RequestLoggerValues) error {
 			log.WithFields(logrus.Fields{
 				"URI":    values.URI,
 				"status": values.Status,
@@ -39,8 +39,8 @@ func SetupLogger(e *echo.Echo) {
 func GracefulServerWithPid(e *echo.Echo, port string) {
 	log := logrus.New()
 	server := endless.NewServer("localhost:"+port, e)
-	server.BeforeBegin = func(add string) {
-		pidFile := filepath.Join(port + ".pid")
+	server.BeforeBegin = func(_ string) {
+		pidFile := filepath.Join(port + ".pid") //nolint: gocritic
 		_ = os.Remove(pidFile)
 		err := os.WriteFile(pidFile, []byte(strconv.Itoa(os.Getpid())), 0600)
 		if err != nil {
