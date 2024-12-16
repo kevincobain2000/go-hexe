@@ -28,23 +28,6 @@
 
 **Supports:** Base Path, Custom Port.
 
-# Build Status
-
-![unit-test-run-time](https://coveritup.app/badge?org=kevincobain2000&repo=go-hexe&type=unit-test-run-time&branch=master)
-![build-time](https://coveritup.app/badge?org=kevincobain2000&repo=go-hexe&type=build-time&branch=master)
-![coverage](https://coveritup.app/badge?org=kevincobain2000&repo=go-hexe&type=coverage&branch=master)
-![go-binary-size](https://coveritup.app/badge?org=kevincobain2000&repo=go-hexe&type=go-binary-size&branch=master)
-![go-mod-dependencies](https://coveritup.app/badge?org=kevincobain2000&repo=go-hexe&type=go-mod-dependencies&branch=master)
-![go-sec-issues](https://coveritup.app/badge?org=kevincobain2000&repo=go-hexe&type=go-sec-issues&branch=master)
-
-
-![unit-test-run-time](https://coveritup.app/chart?org=kevincobain2000&repo=go-hexe&type=unit-test-run-time&output=svg&width=160&height=160&branch=master&line=fill)
-![build-time](https://coveritup.app/chart?org=kevincobain2000&repo=go-hexe&type=build-time&output=svg&width=160&height=160&branch=master&line=fill)
-![coverage](https://coveritup.app/chart?org=kevincobain2000&repo=go-hexe&type=coverage&output=svg&width=160&height=160&branch=master&line=fill)
-![go-binary-size](https://coveritup.app/chart?org=kevincobain2000&repo=go-hexe&type=go-binary-size&output=svg&width=160&height=160&branch=master&line=fill)
-![go-mod-dependencies](https://coveritup.app/chart?org=kevincobain2000&repo=go-hexe&type=go-mod-dependencies&output=svg&width=160&height=160&branch=master&line=fill)
-![go-sec-issues](https://coveritup.app/chart?org=kevincobain2000&repo=go-hexe&type=go-sec-issues&output=svg&width=160&height=160&branch=master&line=fill)
-
 
 ## Requirements
 
